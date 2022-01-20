@@ -1,0 +1,15 @@
+.ignore
+.terraform*
+terraform.plan
+terraform.tfvars
+tfplan
+*.tfstate
+*.tfstate.backup
+package-lock.json
+.env
+*.zip
+config/rand
+config/uuid
+frontend/website/build/
+uiConfig.json
+converted.jpg
