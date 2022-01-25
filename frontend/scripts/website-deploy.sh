@@ -4,7 +4,7 @@ website-deploy() {
 
     cd "$PROJECT_DIR/frontend/website"
 
-    if [[ ! -d "$PROJECT_DIR/frontend/website" ]];
+    if [[ ! -d "$PROJECT_DIR/frontend/website/build" ]];
     then
         # take a long time !
         info npm run build

@@ -16,7 +16,7 @@ apply: # terraform plan + apply (deploy)
 ui-config: # generate the uiConfig.json file
 	./make.sh ui-config
 
-website-local: # browse the website in localhost 
+website-local: # browse the website in localhost
 	./make.sh website-local
 
 website-deploy: # deploy the static website to the S3 bucket

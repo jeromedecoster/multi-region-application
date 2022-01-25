@@ -9,6 +9,7 @@ data "aws_s3_bucket" "bucket_secondary" {
   bucket   = "${var.project_name}-secondary"
 }
 
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/api_gateway_rest_api
 data "aws_api_gateway_rest_api" "config_primary" {
   provider = aws.primary
   name     = "${var.project_name}-config-primary"
